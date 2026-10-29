@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Om Thakur — Backend Engineer (1-Page)</title>
+<meta name="author" content="Om Thakur">
+<meta name="description" content="Resume of Om Thakur, Backend Engineer: distributed systems, scalable APIs, message-queue architecture.">
+<link rel="stylesheet" href="resume-1page.css">
+</head>
+<body>
+<button class="print-btn" type="button" onclick="window.print()">Print / Save PDF</button>
+<main class="sheet">
+
+<header class="masthead">
+  <div>
+    <h1>Om Thakur</h1>
+    <p class="headline">Backend Engineer &nbsp;|&nbsp; Distributed Systems &nbsp;|&nbsp; Scalable APIs</p>
+  </div>
+  <address class="contact" style="font-style:normal">
+    Mumbai, India &nbsp;·&nbsp; <a href="tel:+917756898550">+91 7756898550</a> &nbsp;·&nbsp; <a href="mailto:omthakur2366@gmail.com">omthakur2366@gmail.com</a><br>
+    <a href="https://omthakur.in">omthakur.in</a> &nbsp;·&nbsp; <a href="https://github.com/MonsterFlick">github.com/MonsterFlick</a> &nbsp;·&nbsp; <a href="https://linkedin.com/in/omthakur2366">linkedin.com/in/omthakur2366</a>
+  </address>
+</header>
+
+<section>
+  <h2>Professional Summary</h2>
+  <p class="summary">Backend Software Engineer focused on distributed systems, event-driven processing, scalable APIs, and production reliability. Experienced in building asynchronous services, low-latency WebSocket pipelines, secure integrations, and database-backed applications using TypeScript, Python, and PostgreSQL.</p>
+</section>
+
+<section>
+  <h2>Experience</h2>
+
+  <article class="entry">
+    <div class="entry-head"><h3>Founding Software Engineer</h3><span class="dates">May 2026 – Present</span></div>
+    <p class="org">Krishora Technologies<i>Mumbai, India</i></p>
+    <ul>
+      <li>Engineered a low-latency Python processing pipeline integrating Pipecat, Exotel WebSockets, model inference, and CUDA-accelerated processing, achieving approximately 700 ms turnaround.</li>
+      <li>Built the Node.js/PM2 service router for Sevak AI, utilizing Qdrant and the nomic-embed-text embedding model for semantic retrieval.</li>
+      <li>Deployed and maintained self-hosted production infrastructure with Nginx reverse proxying, Cloudflare SSL, PM2 process management, Dograh, and Mailcow.</li>
+    </ul>
+  </article>
+
+  <article class="entry">
+    <div class="entry-head"><h3>Software Developer</h3><span class="dates">Aug 2025 – May 2026</span></div>
+    <p class="org">Cyber Intelligence and Research Lab (CIARL)<i>Thane, India</i></p>
+    <ul>
+      <li>Developed Kotlin/Java Android background services with encrypted SQLite queues to guarantee zero field data loss during intermittent connectivity.</li>
+      <li>Engineered React/PostgreSQL applications featuring authentication, fine-grained role-based access control (RBAC), and user management.</li>
+      <li>Built a legal-domain RAG pipeline with document ingestion, semantic retrieval, and citation-backed responses; evaluated Matrix-based protocols for secure real-time communication.</li>
+    </ul>
+  </article>
+
+  <article class="entry">
+    <div class="entry-head"><h3>Software Development Engineer Intern</h3><span class="dates">Aug 2024 – Feb 2025</span></div>
+    <p class="org">Sumeru Technology Solutions Pvt. Ltd.<i>Bengaluru, India</i></p>
+    <ul>
+      <li>Replaced polling-based cron workflows with the Flexbase message-queue service, reducing data synchronization time from 15 minutes to 4 seconds (~99.5% reduction).</li>
+      <li>Participated in root cause analysis of a production database outage, identifying payment cron retry bursts that saturated database connections.</li>
+      <li>Migrated legacy PHP services to TypeScript and Deno Edge Functions; evaluated notification architectures (Novu) and integrated Supabase Row-Level Security (RLS).</li>
+    </ul>
+  </article>
+</section>
+
+<section>
+  <h2>Technical Skills</h2>
+  <dl class="skills">
+    <dt>Languages</dt><dd>TypeScript, JavaScript, Python, SQL, Bash</dd>
+    <dt>Backend &amp; Distributed</dt><dd>Node.js, Deno, REST APIs, WebSockets, Message Queues, Webhooks, Asynchronous Pipelines</dd>
+    <dt>Databases</dt><dd>PostgreSQL, Supabase, MySQL, Redis, SQLite, Qdrant</dd>
+    <dt>Infrastructure &amp; Security</dt><dd>Linux, Docker, Nginx, PM2, Cloudflare SSL, RBAC, Row-Level Security (RLS), Git</dd>
+  </dl>
+</section>
+
+<section>
+  <h2>Selected Projects</h2>
+
+  <article class="entry">
+    <div class="entry-head"><h3>Digital Commerce &amp; Entitlement Platform</h3><span class="dates"><a href="https://store.sowebuild.in">store.sowebuild.in</a></span></div>
+    <p class="stack">Next.js 15 · TypeScript · Supabase · Razorpay</p>
+    <ul>
+      <li>Implemented dual-verification checkout combining synchronous payment API validation with HMAC-SHA256 webhook verification.</li>
+      <li>Encrypted digital assets at rest using AES-256-GCM authenticated encryption with SHA-256 key derivation and randomized IVs.</li>
+    </ul>
+  </article>
+
+  <article class="entry">
+    <div class="entry-head"><h3>devpic — Stateless Mathematical SVG API</h3><span class="dates"><a href="https://github.com/MonsterFlick/devpic">github.com/MonsterFlick/devpic</a></span></div>
+    <p class="stack">TypeScript · Next.js Edge Runtime</p>
+    <ul>
+      <li>Built an open-source, stateless REST API generating deterministic SVG patterns, geometric meshes, and UI assets via mathematical algorithms.</li>
+      <li>Achieved sub-10 ms response times deployed on Next.js Edge Runtime with zero database or persistent storage overhead.</li>
+    </ul>
+  </article>
+</section>
+
+<section>
+  <h2>Education</h2>
+  <article class="entry">
+    <div class="entry-head"><h3>Bachelor of Science in Information Technology (B.Sc. IT)</h3><span class="dates">Aug 2021 – Apr 2024</span></div>
+    <p class="org">Sonubhau Baswant College, University of Mumbai<i>Mumbai, India</i></p>
+    <ul>
+      <li>CGPA: 8.55 / 10 · Graduated with First Rank in College · Led the final-year capstone engineering project team.</li>
+    </ul>
+  </article>
+</section>
+
+</main>
+</body>
+</html>
