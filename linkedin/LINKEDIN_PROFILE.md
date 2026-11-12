@@ -101,7 +101,7 @@ I am open to select Founding Engineer and senior backend opportunities, engineer
 * **Title:** Founding Software Engineer  
 * **Employment Type:** Full-time  
 * **Company:** Krishora Technologies  
-* **Dates:** April 2024 – Present  
+* **Dates:** April 2026 – Present  
 * **Location:** Mumbai, Maharashtra, India  
 * **Description:**
 ```text
@@ -114,7 +114,7 @@ I am open to select Founding Engineer and senior backend opportunities, engineer
 * **Title:** Founder  
 * **Employment Type:** Full-time / Self-employed  
 * **Company:** SoWeBuild.in  
-* **Dates:** April 2024 – Present  
+* **Dates:** April 2026 – Present  
 * **Location:** Mumbai, Maharashtra, India  
 * **Description:**
 ```text
@@ -127,7 +127,7 @@ I am open to select Founding Engineer and senior backend opportunities, engineer
 * **Title:** Backend Developer  
 * **Employment Type:** Full-time  
 * **Company:** CIARL  
-* **Dates:** August 2023 – April 2024  
+* **Dates:** August 2025 – April 2026  
 * **Location:** Mumbai, Maharashtra, India  
 * **Description:**
 ```text
