@@ -59,7 +59,8 @@
     <ul>
       <li>Replaced polling-based cron workflows with the Flexbase message-queue service, reducing data synchronization time from 15 minutes to 4 seconds (~99.5% reduction).</li>
       <li>Participated in root cause analysis of a production database outage, identifying payment cron retry bursts that saturated database connections.</li>
-      <li>Migrated legacy PHP services to TypeScript and Deno Edge Functions; evaluated notification architectures (Novu) and integrated Supabase Row-Level Security (RLS).</li>
+      <li>Migrated legacy PHP services to TypeScript and Deno Edge Functions; integrated Supabase Row-Level Security (RLS) with Drizzle ORM.</li>
+      <li>Led an engineering team of four in evaluating Novu against in-house notification architectures.</li>
     </ul>
   </article>
 </section>
@@ -92,6 +93,15 @@
     <ul>
       <li>Built an open-source, stateless REST API generating deterministic SVG patterns, geometric meshes, and UI assets via mathematical algorithms.</li>
       <li>Achieved sub-10 ms response times deployed on Next.js Edge Runtime with zero database or persistent storage overhead.</li>
+    </ul>
+  </article>
+
+  <article class="entry">
+    <div class="entry-head"><h3>Agni — Local AI Automation Agent</h3><span class="dates"><a href="https://github.com/MonsterFlick/Agni">github.com/MonsterFlick/Agni</a></span></div>
+    <p class="stack">Python · Ollama · PowerShell · Windows APIs</p>
+    <ul>
+      <li>Built an offline automation agent executing Windows actions via local LLMs (Ollama) with command sandboxing and script caching.</li>
+      <li>Implemented safety checks, command blacklisting, and an automated repair loop driven by runtime errors.</li>
     </ul>
   </article>
 </section>
