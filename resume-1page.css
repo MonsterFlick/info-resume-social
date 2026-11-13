@@ -26,9 +26,11 @@ h1,h2,h3,p,ul,dl,dd{margin:0;padding:0}
 
 /* Header */
 .masthead{display:flex;justify-content:space-between;align-items:flex-end;gap:6mm;padding-bottom:2.2mm;border-bottom:1.2pt solid var(--ink)}
+.identity{min-width:0}
 h1{font:600 22pt/1 var(--serif);color:var(--ink);letter-spacing:-.3pt}
-.headline{margin-top:1.8mm;font:500 9pt/1.2 var(--sans);color:var(--accent);letter-spacing:.2pt}
-.contact{font:400 7.8pt/1.42 var(--mono);text-align:right;color:var(--body)}
+.headline{margin-top:1.8mm;font:500 8.8pt/1.2 var(--sans);color:var(--accent);letter-spacing:.2pt;white-space:nowrap}
+.contact{font:400 7.4pt/1.38 var(--mono);text-align:right;color:var(--body);white-space:nowrap;flex-shrink:0}
+.contact div{line-height:1.38}
 .contact a{border-bottom-color:transparent}
 .contact a:hover{border-bottom-color:var(--accent)}
 
