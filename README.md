@@ -23,11 +23,12 @@ Compiled from pure semantic HTML & CSS with self-hosted IBM Plex typography.
 
 ### 🖨️ Compiling / Printing PDFs Locally
 ```bash
-# Main 2-Page Resume
-chrome --headless=new --disable-gpu --no-pdf-header-footer --print-to-pdf="Om_Thakur_Resume.pdf" resume.html
+# Automated compiler (serves local assets, compiles 2-page & 1-page PDFs, and mirrors to site)
+node build-resumes.mjs
 
-# Single-Page Resume
-chrome --headless=new --disable-gpu --no-pdf-header-footer --print-to-pdf="Om_Thakur_Resume_1Page.pdf" resume-1page.html
+# Manual compile via Chrome:
+# Note: On Windows, pass an isolated --user-data-dir so Chrome headless doesn't attach to an existing GUI instance.
+chrome --headless=new --user-data-dir="%TEMP%\chrome-pdf" --disable-gpu --no-pdf-header-footer --print-to-pdf="Om_Thakur_Resume.pdf" resume.html
 ```
 
 ---
